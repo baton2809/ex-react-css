@@ -4,7 +4,7 @@ import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
 const Hello = () => {
-  let images = [
+  const images = [
     {
       original: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599',
       thumbnail: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599',
@@ -17,9 +17,9 @@ const Hello = () => {
 
   return (
     <div>
-      <div className='comp1' />
+      <div className="comp1" />
       <ImageGallery
-        thumbnailPosition='bottom'
+        thumbnailPosition="bottom"
         useBrowserFullscreen={false}
         showPlayButton={false}
         showNav={true}
@@ -34,7 +34,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Hello />} />
+        <Route path="/" element={<Hello />} />
       </Routes>
     </Router>
   );
