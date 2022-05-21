@@ -27,15 +27,6 @@ body {
   background-color: yellowgreen;
 }
 
-.root {
-  height: 100%;
-}
-
-.app-main {
-  display: grid;
-  grid-template-rows: 50px 1fr;
-}
-
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: calc(100vh - 80px - 10px - 50px) !important;
 }
