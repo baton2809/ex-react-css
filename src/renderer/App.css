@@ -21,12 +21,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-.comp1 {
-  height: 50px;
-  background-color: yellowgreen;
-}
-
-.image-gallery-content .image-gallery-slide .image-gallery-image {
-  max-height: calc(100vh - 80px - 10px - 50px) !important;
-}
